@@ -1,0 +1,179 @@
+body {
+  font-family: "Fascinate", cursive;
+}
+
+.dFlex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+
+
+.textCent {
+  text-align: center;
+}
+
+.justifyCenter {
+  justify-content: center;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.justEnd {
+  justify-content: end;
+}
+
+.alignEnd {
+  align-items: flex-end;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+.spaceAround {
+  justify-content: space-around;
+}
+
+.alignEven{
+  align-items: space-evenly;
+}
+
+.cont90 {
+  width: 90%;
+  margin: auto;
+}
+
+.w70 {
+  width: 70%;
+}
+
+
+.w30 {
+  width: 30%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.h100{
+  height: 100%;
+}
+
+.textEnd {
+  text-align: end;
+}
+
+.h30{
+  height: 30%;
+}
+
+.divParameters {
+  width: 100%;
+  height: 95vh;
+  background-color: lightcyan;
+  color: #0a3b49;
+  border: 5px solid #0a3b49;
+}
+
+.btn1 {
+  width: 150px;
+  height: 150px;
+  padding: 12px;
+  border: 1px solid #df2f38;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #0e5064;
+}
+
+#clickStart {
+  width: 500px;
+  height: 80px;
+  border: 2px solid black;
+  background-color: khaki;
+  font-size: 50px;
+  padding: 50px;
+  border-radius: 10px;
+}
+#clickStart:hover{
+  cursor: pointer;
+  background-color: orange;
+  transform: scale(1.1);
+}
+
+#gameDiv{
+  display: none;
+}
+
+#shopDiv{
+  display: none;
+}
+
+#scoreDiv{
+  font-size: 35px;
+}
+
+#shopButton{
+  height: 60px;
+  width: 400px;
+  background-color: palevioletred;
+  font-size: 40px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#shopButton:hover{
+  background-color: purple;
+  color: aquamarine;
+}
+
+.updateButton{
+  height: 15%;
+  width: 30%;
+  background-color: #9932cc;
+  color: aquamarine;
+  margin: auto;
+}
+
+.updateButton:hover{
+  transform: scale(1.1);
+  color: darkgoldenrod;
+}
+
+#cookiePic2{
+  display: none;
+  margin: auto;
+}
+
+#backButton{
+  width: 25%;
+  background-color: deeppink;
+  color: #0e5064;
+  padding: 10px;
+  margin-left: 50px;
+}
+#backButton:hover{
+  transform: scale(1.1);
+}
+
+@keyframes cookieSpin{
+  25% {transform: rotate(90deg);}
+  50% {transform: rotate(180deg);}
+  75% {transform: rotate(270deg);}
+  100% {transform: rotate(360deg);}
+}
+
+.spinCookie{
+  animation-name: cookieSpin;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-direction: normal;
+}
+/*# sourceMappingURL=style.css.map */
